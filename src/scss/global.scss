@@ -1,0 +1,31 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: $backgroundColor;
+}
+.accent_btn {
+  background: $primaryColor;
+  border-radius: 80px;
+  padding: 4px 22px;
+  color: $text;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background: $primaryHoverColor;
+  }
+}
+
+.h2_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.87);
+}
